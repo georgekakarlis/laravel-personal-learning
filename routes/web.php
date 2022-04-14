@@ -54,6 +54,5 @@ Route::get('/users', function () {
 //  ]);
 
 //Laravel 8 PHP Callable syntax
-Route::get('/products', 
-[ProductsController::class, 'index'])->name('product');
+Route::get('/', [PagesController::class, 'index']);
 
